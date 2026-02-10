@@ -86,6 +86,10 @@ background-color: rgba(36, 183, 78, 0.289);
     padding: 18px 0px 18px 0px ;
     margin-bottom: 18px;
 }
+.email:hover{
+    background-color: rgba(220, 220, 220, 0.325);
+    transform: scale(1.01);
+}
 .password-label{
     color: blueviolet;
     font-size: 1rem;
@@ -96,9 +100,43 @@ background-color: rgba(36, 183, 78, 0.289);
     font-size: 1.1rem;
     width: 540px;
     padding: 18px 0px 18px 0px ;
+     margin-bottom: 18px;
+}
+.password:hover{
+      transform: scale(1.01);
+       background-color: rgba(220, 220, 220, 0.325);
 }
 
-
+.forgot-pass{
+    display: flex;
+    justify-content: space-between;
+    color: #0000006d;
+    margin-bottom: 18px;
+}
+.submit-login{
+    background-color: #3751FE;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 33px;
+}
+.submit-login:hover{
+  transform: scale(0.80);
+}
+.submit-signup{
+    background-color: #FFFFFF;
+    color: #3751FE;
+     font-size: 1.1rem;
+    padding: 12px 25px;
+    border: 1px solid #3751FE;
+    border-radius: 6px;
+    margin-right: 33px;
+}
+.submit-signup:hover{
+    transform: scale(0.80);
+}
 
 
 .hero-image img{
