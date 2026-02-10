@@ -199,4 +199,13 @@ background-color: rgba(36, 183, 78, 0.289);
         gap: 20px;
         padding-bottom: 10px;
     }
+
+    .hero-container{
+        flex-direction: column;
+        
+    }
+    .email{
+       
+        
+    }
 }
