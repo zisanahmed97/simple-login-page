@@ -46,15 +46,65 @@ background-color: rgba(36, 183, 78, 0.289);
 .nav-container li:hover{
     transform: scale(0.90);
 }
+#hero{
+    background-color: aliceblue;
+}
+
 
 .hero-container{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    /* box-shadow: 0px 2px 3px 5px grey; */
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.hero-content h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #3751FE;
+   margin-bottom: 28px;
+}
+.hero-content h4{
+    color: #0000006d;
+    margin-bottom: 60px;
+}
+.email-label{
+    color: blueviolet;
+    font-size: 1rem;
+    font-weight: 600;
+    
 }
 
+.email{
+    color: #00000069;
+    font-size: 1.1rem;
+    width: 540px;
+    padding: 18px 0px 18px 0px ;
+    margin-bottom: 18px;
+}
+.password-label{
+    color: blueviolet;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.password{
+    color: #00000069;
+    font-size: 1.1rem;
+    width: 540px;
+    padding: 18px 0px 18px 0px ;
+}
+
+
+
+
+.hero-image img{
+   max-width: 550px;
+   width: 100%;
+}
 
 
 
