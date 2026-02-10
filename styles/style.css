@@ -137,12 +137,35 @@ background-color: rgba(36, 183, 78, 0.289);
 .submit-signup:hover{
     transform: scale(0.80);
 }
-
+.social{
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.or{
+    color: #0000006d;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.or:hover{
+    text-decoration: underline;
+      transform: scale(0.90);
+}
+.fb{
+    color: #3751FE;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.fb:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+}
 
 .hero-image img{
    max-width: 550px;
    width: 100%;
 }
+
 
 
 
