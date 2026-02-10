@@ -47,6 +47,36 @@ background-color: rgba(36, 183, 78, 0.289);
     transform: scale(0.90);
 }
 
+.hero-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
