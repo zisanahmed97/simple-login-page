@@ -38,6 +38,15 @@ background-color: rgba(36, 183, 78, 0.289);
      /* color: #e5e5e5ce; */
 }
 
+.nav-container a:hover{
+    background-color: rgba(222, 184, 135, 0.341);
+  
+}
+
+.nav-container li:hover{
+    transform: scale(0.90);
+}
+
 
 
 
